@@ -3,9 +3,9 @@ colorscheme industry
 " enable syntax highlighting
 syntax enable
 " number of visual spaces per TAB
-set tabstop=4
+set tabstop=2
 " number of spaces in tab when editing
-set softtabstop=4
+set softtabstop=2
 " tabs are spaces
 set expandtab
 " show line numbers
@@ -15,11 +15,11 @@ set showcmd
 " highlight current line
 set cursorline
 " load filetype-specific indent files
-filetype indent on
+"filetype indent on
 " visual autocomplete for command menu
 set wildmenu
 " redraw only when needed
-set showmatch
+set lazyredraw 
 " highlight matching
 set showmatch
 " search as characters are entered
